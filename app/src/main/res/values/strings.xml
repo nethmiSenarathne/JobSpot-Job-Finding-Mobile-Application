@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">JobSpot</string>
+    <string name="submit">Confirm And Update</string>
+    <string name="topic">Apply for Task</string>
+    <string name="userId_task">User Name</string>
+    <string name="user_name_task">User Name</string>
+    <string name="email_task">Email</string>
+    <string name="gender_task">Gender</string>
+</resources>

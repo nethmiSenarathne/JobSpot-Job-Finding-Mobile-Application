@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".insert"
+    android:background="@drawable/back">
+
+    <TextView
+        android:id="@+id/task_form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/topic"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:gravity="center"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/user_id_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:hint="@string/userId_task"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/user_name_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/user_name_task"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/email_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/email_task"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/age_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Age"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/gender_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/gender_task"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/updateButton1"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="61dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="Confirm and Update"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <Button
+        android:id="@+id/updateButton2"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="6dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="Go to Dashboard"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+</LinearLayout>
